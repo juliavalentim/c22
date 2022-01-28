@@ -29,7 +29,7 @@ function setup() {
   PlayerBase = Bodies.rectangle(200, 350, 180, 150,  options);
   World.add(world, playerBase);
 
-  player = Bodies.rectangle(250, playerBase.position.y - 160, 50, 180, options);
+  player = Bodies.rectangle(250, playerBase.position.y,160, 50, 180, options);
   World.add(world, player)
 
 }
